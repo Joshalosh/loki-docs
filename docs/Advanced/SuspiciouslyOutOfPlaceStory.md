@@ -13,7 +13,7 @@ Josh simply nodded. Rudolph cried tears of joy and awe- he had never seen a move
 &nbsp;&nbsp;&nbsp;&nbsp;“You mean Simon-the-easily-forgotten-and-seldom-talked-about-Christmas-leprechaun?”<br>
 &nbsp;&nbsp;&nbsp;&nbsp;“Precisely! We have no clue where he is, and Santa can’t deliver his presents without him by his side on the sleigh!”
 
-Josh knew immediately that this was the doing of none other than Kee, the evil Christmas Queen with excruciating body odor. Only she would be annoying enough to steal Simon on Christmas Eve. “I know what to do.  There is a god of tricks who is known to be a fabulous shapeshifter. We could go to him and see if he will shapeshift into Simon for the night.”<br>
+Josh knew immediately that this was the doing of none other than Kee, the evil Christmas Queen with excruciating body odor. Only she would be annoying enough to steal Simon on Christmas Eve. “I know what to do.  &nbsp;There is a god of tricks who is known to be a fabulous shapeshifter. We could go to him and see if he will shapeshift into Simon for the night.”<br>
 &nbsp;&nbsp;&nbsp;&nbsp;“Josh, that is a fantastic idea! Hop on my back, you beautiful man, I’ll fly us there.”
 
 Off they flew through the night, all the way to Asgard. Normally the flight would be far too long and arduous for Rudolph to make alone, but he was so determined not to let Josh down or show weakness in front of him in any way that he dug deep and flew faster and harder than he had ever flown before. They reached Asgard about 20 minutes earlier than Google Maps predicted.
