@@ -23,7 +23,7 @@ As soon as they touched down in front of Loki’s house, Josh felt another tingl
 &nbsp;&nbsp;&nbsp;&nbsp;“It’s my nugget senses, they’re tingling. Something isn’t right.”<br>
 Josh leaped off Rudolph's back, performing a double backflip and a front flip. Besides defying all logical physics, it would most certainly have received a gold medal at the Olympics. He rushed to the house and was busted the door in with a kick so powerful that the door literally disintegrated. The house was completely empty. Everything was gone including the trickster god’s favourite guitar. Something was definitely not right.
 
-He heard a soft whimper coming from the corner of the room. He noticed Chris, Loki’s small untrusty sidekick, lying on the floor in the fetal position, crying. Chris was a bit of a crybaby so it wasn’t uncommon for Josh to find him like this.
+He heard a soft whimper coming from the corner of the room. He noticed Chris, Loki’s small untrusty sidekick, lying on the floor in the fetal position, crying. Chris was a bit of a crybaby so it wasn’t uncommon for Josh to find him like this.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;“Where the hell is the trickster god? And what are you doing here?”<br>
 &nbsp;&nbsp;&nbsp;&nbsp;“He… he… he’s… he’s gone,” Chris sobbed.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;“Goddamnit we don’t have much time!” yelled Josh.
