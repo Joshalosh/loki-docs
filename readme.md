@@ -8,7 +8,7 @@ Any changes made to this repository will be auto-propagated to the Loki-docs web
 
 clone repo, install dependencies and build the docs:
     
-    $ git clone https://github.com/loki-project/loki-docs
+    $ git clone https://github.com/joshalosh/loki-docs
     $ cd loki-docs
     $ make
     
