@@ -1,5 +1,5 @@
 # Loki Docs
-To view documentation please visit https://loki-project.github.io/loki-docs/
+To view documentation please visit https://joshalosh.github.io/loki-docs/
 
 Any changes made to this repository will be auto-propagated to the Loki-docs website.
 
