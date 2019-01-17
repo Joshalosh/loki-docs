@@ -17,12 +17,13 @@ theme:
   palette:
      accent: 'green'
 
+
   font:
     title: 'Proxima Nova'
     text: 'Roboto Regular'
     code: 'Roboto'
   favicon: 'Loki_favicon32x32.png'
-  logo: 'Loki_favicon32x32.png'
+  logo: 'logo.svg'
 
 nav:
 - 'Home': 'index.md'
@@ -39,7 +40,7 @@ nav:
   - Graphical User interface (GUI) Wallet:
       - 'Troubleshooting GUI Wallet' : 'Wallets/GuiWallet/TroubleshootGui.md'
       - Guides: 
-        - 'to be added': 'Wallets/GuiWallet/placeholder.md'
+        - 'Loki Gui Setup': 'Wallets/GuiWallet/loki-gui-guide.md'
   - Mobile Wallet:
       - 'Troubleshooting Mobile Wallet' : 'Wallets/MobileWallet/TroubleshootMobileWallet.md'
       - Guides :
@@ -66,22 +67,29 @@ nav:
     - 'Staking Requirement': 'ServiceNodes/StakingRequirement.md'
     - Guides:
       - 'Service Node Full Guide': 'ServiceNodes/SNFullGuide.md'
-      - 'Service Node RPC Guide': 'Advanced/SNRPCGuide.md'
+      - 'Service Node RPC Guide': 'Developer/SNRPCGuide.md'
       - 'Service Node As Service Guide': 'ServiceNodes/RunServiceNodeAsService.md'
 - Lokinet:
     - 'Overview': 'Lokinet/LokinetOverview.md'
+    - 'Public Testing Overview': 'Lokinet/Guides/PublicTestingGuide.md'
     - 'SNApps': 'Lokinet/SNApps.md'
     - 'LLARP': 'Lokinet/LLARP.md'
     - 'Developers': 'Lokinet/DeveloperInfo.md'
     - Guides:
         - 'Installation': 'Lokinet/Guides/Install.md'
+        - 'Accessing SNApps': 'Lokinet/Guides/AccessingSNApps.md'
+        - 'Joining a Lokinet IRC Chat': 'Lokinet/Guides/LokinetIRC.md'
+        - 'Hosting SNApps': 'Lokinet/Guides/HostingSNApps.md'
+        - 'Route through Exit Node': 'Lokinet/Guides/RouteThroughExitNode.md'
         - 'Test Network Relay': 'Lokinet/Guides/TestNetRelay.md'
-        - 'SNApps': 'Lokinet/Guides/SNApps.md'
         - 'Exit Nodes': 'Lokinet/Guides/ExitNode.md'
 - Loki Services:
     - 'Overview': 'LokiServices/LokiServicesOverview.md'
     - 'Messenger' : 'LokiServices/Messenger.md'
     - 'Blink': 'LokiServices/Blink.md'
+- Developer:
+    - 'Service Node RPC Guide': 'Developer/SNRPCGuide.md'
+    - 'FAQ': 'Developer/FAQ.md'
 - Advanced:
     - 'Technical Specs' : 'Advanced/TechnicalSpecs.md'
     - 'Cryptoeconomics' : 'Advanced/Cryptoeconomics.md'
@@ -95,15 +103,14 @@ nav:
         - 'Swarm Flagging': 'Advanced/SwarmFlagging.md'
     - Guides:
         - 'lokid' : 'Advanced/lokid.md'
-        - 'Compiling Loki from source': 'Advanced/CompilingGuide.md'
         - 'Using Lokinet': 'Advanced/UsingLokinet.md'
         - 'Using Tor': 'Advanced/UsingTor.md'
-        - 'Debugging': 'Advanced/Debugging.md'  
-        - 'Service Node RPC Guide': 'Advanced/SNRPCGuide.md'      
+        - 'Debugging': 'Advanced/Debugging.md'      
 - 'FAQ': 'FAQ.md'
 - Contributing:
    - 'How to Contribute to LokiDocs': 'Contributing/HowToContributeToLokiDocs.md'
    - 'Vulnerability Response': 'Contributing/VULNERABILITY_RESPONSE_LOKI.md'
+   - 'Github Issue Template Example': 'Contributing/Issue_Template.md'
 - Governance:
    - 'Overview': 'Governance/Governance.md'
    - 'The Loki Foundation': 'Governance/TheLokiFoundation.md'
@@ -113,6 +120,9 @@ nav:
 extra_css:
   - CSS/style.css
   - CSS/font.css
+
+extra_javascript:
+  - JAVASCRIPT/links.js
 
 extra:
   social:
@@ -126,6 +136,8 @@ extra:
       link: 'https://www.reddit.com/r/LokiProject'
     - type: 'youtube'
       link: 'https://www.youtube.com/lokinetwork'
+    - type: 'facebook'
+      link: 'https://www.facebook.com/LokiNetwork/'
 
 # Google Analytics
 google_analytics:
