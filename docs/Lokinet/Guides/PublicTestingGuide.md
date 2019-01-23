@@ -8,7 +8,7 @@ You can of course run the Loki software on any operating system that you can get
 
 ### Summary of Lokinet Requirements
 
-This may change depending on new updates, so you should check here regularly, or follow our [telegram](https://t.me/LokiCommunity)/[discord](https://discord.gg/DN72VN) announcements channel. 
+This may change depending on new updates, so you should check here regularly, or follow our [telegram](https://t.me/LokiCommunity)/[discord](https://discord.gg/67GXfD6) announcements channel. 
 
 |Spec|Note|
 |---|---|
@@ -105,6 +105,8 @@ This guide will help you host your own SNApp, to access the guide [click here](.
 The guide will cover:
 
 - Finding your Lokinet pubkey.
+
+- Editing our `lokinet.ini` file to enable persistent SNApps.
 
 - Creating a directory for your SNApp's code.
 
