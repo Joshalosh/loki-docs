@@ -94,7 +94,6 @@ nav:
     - 'Sybil Resistance' : 'Advanced/SybilResistance.md'
     - 'Dynamic Block Size': 'Advanced/DynamicBlockSize.md'
     - 'CryptoNote Elements': 'Advanced/CryptoNoteElements.md'
-    - 'How Josh Saved Christmas And Is The Best Ever': 'Advanced/SuspiciouslyOutOfPlaceStory.md'
     - Attack Prevention:
         - 'Denial of Service Attacks': 'Advanced/DenialofServiceAttacks.md'
         - 'IP and Packet Blocking': 'Advanced/IPandPacketBlocking.md'
