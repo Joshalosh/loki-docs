@@ -10,11 +10,11 @@ You can of course run the Loki software on any operating system that you can get
 
 ### Summary of Loki Service Node Requirements
 
-Full summary of Loki Service Node Requirements. This may change depending on Service Node functionality, so you should check here regularly, or follow our [telegram](https://t.me/LokiCommunity)/[discord](https://discord.gg/DN72VN) announcements channel. 
+Full summary of Loki Service Node Requirements. This may change depending on Service Node functionality, so you should check here regularly, or follow our [Telegram](https://t.me/LokiCommunity)/[Discord](https://discord.gg/DN72VN) announcements channel.
 
 |Spec|Note|
 |---|---|
-|Latest Binary|[loki-linux-x64-1.0.3](https://github.com/loki-project/loki/releases/latest)|
+|Latest Binary|[Loki Festive Freya](https://github.com/loki-project/loki/releases/latest)|
 |Software| Ubuntu 16.04|
 |Storage | 30-50gb|
 |Ram | 2-4 gb|
@@ -192,7 +192,7 @@ Where `<link>` is the download link of the latest linux release. To find the lin
 Your command should look something like:
 
 ```
-wget https://github.com/loki-project/loki/releases/download/v2.0.3/loki-linux-x64-v2.0.3.zip`
+wget https://github.com/loki-project/loki/releases/download/v2.0.3/loki-linux-x64-v2.0.3.zip
 ```
 
 If `wget` is not installed you will need to run `sudo apt-get install wget`.
@@ -200,7 +200,7 @@ If `wget` is not installed you will need to run `sudo apt-get install wget`.
 To get to the binaries, we need to unzip them. Download and install unzip by running the following command.
 
 ```
-sudo apt-get install unzip`
+sudo apt-get install unzip
 ```
 
 If `unzip` is not installed you will need to run `sudo apt-get install unzip`.
@@ -208,7 +208,7 @@ If `unzip` is not installed you will need to run `sudo apt-get install unzip`.
 To unzip the downloaded zip file run the following command:
 
 ```
-unzip loki-linux-x64-1.0.3.zip
+unzip loki-linux-x64-v2.0.3.zip
 ```
 
 You should see 8 files unzipped:
@@ -235,10 +235,10 @@ Check they are unzipped by running:
 ls
 ```
 
-If not, sometimes unzip will dump the binaries in a folder. In our case the folder would be called `loki-linux-x64-1.0.3`, so to get into it we can type:
+If not, sometimes unzip will dump the binaries in a folder. In our case the folder would be called `loki-linux-x64-v2.0.3`, so to get into it we can type:
 
 ```
-cd loki-linux-x64-1.0.3`
+cd loki-linux-x64-v2.0.3
 ```
 
 To check that they are in that folder, once again, type:
@@ -307,7 +307,7 @@ Log in to your non-root user that we set up before, in our case snode, and once 
 Change directory to where our binaries are saved:
 
 ```
-cd loki-linux-x64-1.0.3
+cd loki-linux-x64-v2.0.3
 ```
 
 Then to launch the wallet run the command:
@@ -631,7 +631,7 @@ This section is for power users who are more familiar with servers and the CLI i
 
 **2. Run the Daemon on a server from a non-root user account, then stake from a local wallet (or a wallet on a separate server).**
 
-> Where `<VERSION>` is mentioned replace with the [latest version](https://github.com/loki-project/loki/releases/latest), example `1.0.3`
+> Where `<VERSION>` is mentioned replace with the [latest version](https://github.com/loki-project/loki/releases/latest), example `v2.0.3`
 
 **3. Connect via SSH to your server**
 
