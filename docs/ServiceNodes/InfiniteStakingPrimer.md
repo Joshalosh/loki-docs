@@ -6,7 +6,6 @@ Infinite Staking is an incremental upgrade on the existing staking process that 
 
 Since Infinite Staking is an incremental upgrade, most of the steps necessary to register and participate in a Service Node remain the same. A quick overview for the new staking process is summarised for quick grokking.
 
-
 ## Updated Staking Process and Commands
 
 ### Operators
@@ -19,15 +18,14 @@ Operators will still use the following commands when setting up a Service Node. 
 ### Contributors
 Two new commands have been added to stop your Service Node from staking, and both the contributor and operator can execute these commands:
 
-- stake `<service node key>` to contribute to the node. Auto staking is no longer an option.
- 
+- `stake <service node key>` to contribute to the node. **Auto staking** is no longer an option.
+
 ### Operators & Contributors (When Service Node Active)
 Two new commands have been added to stop your Service Node from staking, both the contributor and operator can execute these commands:
 
 - **(Optional)** `print_locked_stakes` to preview all the current wallet’s transactions that are locked in a Service Node or blacklisted on the network.
     
 - `request_stake_unlock <service node key>` to request to unlock the stake in 15 days (10800 blocks).
-
 
 ## Unlocking Stakes & Deregistration
 
@@ -38,7 +36,6 @@ In pooled nodes, any contributor that requests the stake to unlock will schedule
 Under the new system, deregistrations can be issued at any point during the active lifecycle of the Service Node. This is inclusive of the time period during which the Service Node is scheduled for expiry. Getting deregistered removes your Service Node from the network and your stakes are placed into a list of blacklisted transactions. Blacklisted transactions are locked and unspendable for 30 days (21600 blocks) from the block in which the Service Node was deregistered.
 
 Receiving a deregistration after participants have already requested the stake to unlock overrides the 15 day (10800 blocks) unlock time, and resets the unlock time to 30 days (21600 blocks).
-
 
 ## Minimum Contribution Rules
 
@@ -62,7 +59,6 @@ A simplistic example being, if the staking requirement is 24,000 Loki then if,
     
 There are rules in the client software in place to stop users from irreversibly funding a Service Node into an invalid state.
 
-
 ## Staking Changes
 
 Users are no longer allowed to stake on behalf of another participant in the Service Node. All contributions for a participant must come from the same wallet address as the one specified in the Service Node.
@@ -73,21 +69,17 @@ Users are no longer allowed to stake on behalf of another participant in the Ser
 
 Updated/newly added fields:
 
-| Field                     | Description                                                                  |
-|---------------------------|------------------------------------------------------------------------------|
-| `requested_unlock_height` | The height at which the stakes will unlock and the Service Node will expire. |
-| `contributor`             | Shows the contributors.                                                      |
-| `locked_contributions`    | An array of each contribution from the contributor that is locked.           |
-| `key_image`               | A string representation of the locked key image (stake).                     |
-| `key_image_pub_key`       | A string representation of the public key component of a key image.          |
-| `amount`                  | The amount of Loki locked in this contribution.                              |
+- `requested_unlock_height` - The height at which the stakes will unlock and the Service Node will expire. 
+- `contributors`
+     - `locked_contributions` - An array of each contribution from the contributor that is locked.
+         - `key_image` - A string representation of the locked key image (stake).
+         - `key_image_pub_key` - A string representation of the public key component of a key image.
+         - `amount` - The amount of Loki locked in this contribution.
 
 ### get_service_node_blacklisted_key_images
 
 Retrieve a list of blacklisted transactions from deregistered Service Nodes on the network.
 
-| Field           | Description                                                               |
-|-----------------|---------------------------------------------------------------------------|
-| `key_image`     | A string representation of the locked key image (stake).                  |
-| `blacklist`     | An array of each blacklisted transaction from deregistered Service Nodes. |
-| `unlock_height` | The height at which the stake can be spent again.                         |
+- `blacklist` - An array of each blacklisted transaction from deregistered Service Nodes
+     - `key_image` - A string representation of the blacklisted key image (stake).
+     - `unlock_height` - The height at which the stake can be spent again.
